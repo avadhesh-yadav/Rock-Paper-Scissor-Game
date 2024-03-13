@@ -26,7 +26,4 @@ This is a simple Rock Paper Scissors game implemented using HTML, CSS, and JavaS
 
 - Click the "Reset Score" button to clear the stored score and start over.
 
-## Credits
-
-- Icons made by [Freepik](https://www.freepik.com) from [www.flaticon.com](https://www.flaticon.com).
 
