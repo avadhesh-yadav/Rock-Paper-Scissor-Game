@@ -1,0 +1,40 @@
+<html lang="en">
+  <head>
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div>
+      <h1>Rock Paper Scissor</h1>
+
+      <img
+        class="image"
+        src="img/rock.png"
+        alt="Rock"
+        onclick="playGame('Rock')"
+      />
+
+      <img
+        class="image"
+        src="img/paper.png"
+        alt="Paper"
+        onclick="playGame('Paper')"
+      />
+
+      <img
+        class="image"
+        src="img/scissor.png"
+        alt="Scissor"
+        onclick="playGame('Scissor')"
+      />
+
+      <p class="js-showResult onscreen">Result</p>
+      <p class="js-showMoves onscreen">Moves</p>
+      <p class="js-showScore onscreen">Wins: 0, Losses: 0, Ties: 0</p>
+
+      <button class="resetButton" onclick="resetScore()">Reset Score</button>
+    </div>
+
+    <script src="spsGame.js"></script>
+  </body>
+</html>
